@@ -1,0 +1,70 @@
+body{
+    margin: 1;
+    background: linear-gradient(#dfb4b4, #daa8a8);
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    border-bottom: 3px solid rgb(210, 221, 111) 
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+h2{
+    text-align: center;
+}
+
+#img-caption{
+    margin: 15px 0 5px 0;
+    text-align: center;
+    border: groove 3px greenyellow;
+}
+
+#tribute-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.early{
+    margin: auto;
+    align-self: center;
+    padding: 15px;
+    border-left: 3px solid saddlebrown
+}
+
+.education{
+    margin: auto;
+    align-self: center;
+    padding: 15px;
+    border-left: 3px solid salmon;
+}
+
+.career{
+    margin: auto;
+    align-self: center;
+    padding: 15px;
+    border-left: 3px solid lightsalmon;
+}
+
+#ending{
+    display: block;
+    justify-content: space-around;  
+}
+
+.source{
+    margin: auto;
+    border-top: 3px double lightseagreen;
+}
+
+.citations{
+    margin: auto;
+    border-top: 3px double limegreen;
+    border-bottom: 3px groove goldenrod;
+}
